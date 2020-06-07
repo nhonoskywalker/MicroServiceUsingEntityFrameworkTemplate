@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessCard.Data.Entities\BusinessCard.Data.Entities.csproj" />
+    <ProjectReference Include="..\BusinessCard.Insfrastructure\BusinessCard.Insfrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

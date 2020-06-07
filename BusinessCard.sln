@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessCard", "BusinessCard\BusinessCard.csproj", "{EB73A8FC-1133-47A5-8955-A6926BD94370}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{EF8E4B61-FEE8-4DC9-A3E8-026BDA1F61E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A6564757-3763-49BB-8280-FD198D71E99A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessCard.Insfrastructure", "BusinessCard.Insfrastructure\BusinessCard.Insfrastructure.csproj", "{71A5C0BE-515E-4EB3-99A4-CA29FEAB2614}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{BE685543-0742-41D1-9130-5D2A41F33B5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessCard.Services.Badges", "BusinessCard.Services.Badges\BusinessCard.Services.Badges.csproj", "{89A5BF81-9D66-44B9-90F8-F4F2FDE30322}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2D0D1685-11E3-4CD3-9005-B5FE146C66F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessCard.Data.Entities", "BusinessCard.Data.Entities\BusinessCard.Data.Entities.csproj", "{F01AD6F1-813B-4841-90EE-B23E72C30FD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB73A8FC-1133-47A5-8955-A6926BD94370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB73A8FC-1133-47A5-8955-A6926BD94370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB73A8FC-1133-47A5-8955-A6926BD94370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB73A8FC-1133-47A5-8955-A6926BD94370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A5C0BE-515E-4EB3-99A4-CA29FEAB2614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A5C0BE-515E-4EB3-99A4-CA29FEAB2614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A5C0BE-515E-4EB3-99A4-CA29FEAB2614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A5C0BE-515E-4EB3-99A4-CA29FEAB2614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A5BF81-9D66-44B9-90F8-F4F2FDE30322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A5BF81-9D66-44B9-90F8-F4F2FDE30322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A5BF81-9D66-44B9-90F8-F4F2FDE30322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A5BF81-9D66-44B9-90F8-F4F2FDE30322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F01AD6F1-813B-4841-90EE-B23E72C30FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F01AD6F1-813B-4841-90EE-B23E72C30FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F01AD6F1-813B-4841-90EE-B23E72C30FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F01AD6F1-813B-4841-90EE-B23E72C30FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB73A8FC-1133-47A5-8955-A6926BD94370} = {EF8E4B61-FEE8-4DC9-A3E8-026BDA1F61E5}
+		{71A5C0BE-515E-4EB3-99A4-CA29FEAB2614} = {A6564757-3763-49BB-8280-FD198D71E99A}
+		{89A5BF81-9D66-44B9-90F8-F4F2FDE30322} = {BE685543-0742-41D1-9130-5D2A41F33B5C}
+		{F01AD6F1-813B-4841-90EE-B23E72C30FD6} = {2D0D1685-11E3-4CD3-9005-B5FE146C66F4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {359ABE70-CA91-4F5C-A954-CD059D026A9F}
+	EndGlobalSection
+EndGlobal
