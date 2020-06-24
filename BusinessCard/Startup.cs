@@ -29,11 +29,9 @@ namespace BusinessCard
         {
             services.AddControllers();
 
-            //services.Configure<DbConnectionString>(this.Configuration.GetSection("DbConnectionString"));
             services.AddSingleton<IDbConnectionStringProvider, DbConnectionStringProvider>();
 
             var connectionString = this.Configuration.GetSection("DbConnectionString").Get<DbConnectionString>();
-
 
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString.Database));
 
@@ -64,7 +62,7 @@ namespace BusinessCard
 
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("It works!");
                 });
             });
         }
